@@ -1,0 +1,5 @@
+The average value of energy, balance, and danceability is used to
+The index value of the aura is obtained and the aura is determined according to that value.
+The disadvantage of this method is that it tries to treat the values of all three factors equally in determining the aura.
+The disadvantage of this method is that it tries to treat all three factors equally in determining the aura. The countermeasure is that when determining the index value of the aura, each element's
+coefficients based on the impact of each element on the aura.

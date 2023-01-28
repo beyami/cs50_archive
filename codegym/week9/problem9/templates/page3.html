@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <title>problem9 page3</title>
+        <style>
+            table{
+              border-collapse: collapse;
+              border-spacing: 0;
+              width: 800px;
+            }
+
+            table tr{
+              border-bottom: solid 1px #eee;
+              cursor: pointer;
+            }
+
+            table tr:hover{
+              background-color: #d5f1fe;
+            }
+
+            table th{
+              background-color: #5d93ee;
+            }
+
+            table th,table td{
+              width: 33%;
+              padding: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>都道府県コード</th>
+                <th>都道府県名</th>
+                <th>人口(千人)</th>
+            </tr>
+            {% for prefecture in prefectures %}
+            <tr>
+                <td>{{ prefecture.id }}</td>
+                <td>{{ prefecture.name }}</td>
+                <td>{{ prefecture.population }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
