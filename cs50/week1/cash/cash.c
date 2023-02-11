@@ -1,3 +1,7 @@
+/*
+アメリカの硬貨でお釣りを表示するプログラム
+*/
+
 #include <cs50.h>
 #include <stdio.h>
 
