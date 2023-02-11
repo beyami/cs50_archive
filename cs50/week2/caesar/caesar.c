@@ -1,3 +1,11 @@
+/*
+与えられた文字列のカエサル暗号化したものを
+返すプログラム
+使い方: [key]は何文字ずらすかを表す整数
+./caesar [key]
+plaintext: [文字列]
+*/
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
