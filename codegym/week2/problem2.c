@@ -1,3 +1,7 @@
+/*
+ポケモンのイニシャルの数を表示するプログラム
+*/
+
 #include <cs50.h>
 #include <stdio.h>
 
