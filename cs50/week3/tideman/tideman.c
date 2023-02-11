@@ -1,3 +1,13 @@
+/*
+選挙を実施し、
+同票の候補者がいた場合
+tideman方式で当選者を決めるプログラム
+使い方:
+./plurality [候補者1 候補者2…]
+Number of voters: [候補者数]
+Vote: [候補者名]
+*/
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
