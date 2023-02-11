@@ -1,3 +1,9 @@
+/*
+入力された2つの文字列のうち、
+以下のPOINTS配列に基づき
+どちらの方が得点が高いかを表示するプログラム
+*/
+
 #include <ctype.h>
 #include <cs50.h>
 #include <stdio.h>
