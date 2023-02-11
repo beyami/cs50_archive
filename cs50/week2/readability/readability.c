@@ -1,3 +1,10 @@
+/*
+与えられた文字列を
+Coleman-Liau指数に基づき
+どれほどの英語を勉強していれば読めるかを表示するプログラム
+(入力は英文のみ対応)
+*/
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
