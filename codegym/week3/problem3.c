@@ -1,3 +1,5 @@
+//都道府県の面積を#でグラフの様に表示するプログラム
+
 #include <cs50.h>
 #include <stdio.h>
 
