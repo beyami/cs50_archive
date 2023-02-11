@@ -1,3 +1,7 @@
+/*
+与えられた文字列をハッシュ化して表示するプログラム
+*/
+
 #include <cs50.h>
 #include <stdio.h>
 #include <ctype.h>
