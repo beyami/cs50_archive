@@ -1,3 +1,8 @@
+/*
+hello, {取得文字列}
+を表示するプログラム
+*/
+
 #include <stdio.h>
 #include <cs50.h>
 
