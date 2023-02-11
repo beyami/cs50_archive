@@ -1,3 +1,13 @@
+/*
+候補者名と投票を受け取り、
+多数決として当選者を決めるプログラム
+使い方:
+./plurality [候補者1 候補者2…]
+Number of voters: [候補者数]
+Vote: [候補者名]
+
+*/
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
