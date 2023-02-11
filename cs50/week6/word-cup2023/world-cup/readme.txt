@@ -1,0 +1,3 @@
+FIFAワールドカップのシミュレーションプログラム
+使い方:python tournament.py data.csv
+fifaランクの記載されたcsvファイルからどの国の優勝率が高いかを降順で表示するプログラム
